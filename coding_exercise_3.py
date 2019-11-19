@@ -51,5 +51,6 @@ I obtain:
 
 The clause sums "i"  to each "i" weight , effectively obtaining 2i for each one.
 So, acum_weights= [0.1, 0.8, 0.1] turns into acum_weights=[0.2, 1.6, 0.2]
-Whatever happens next, the relation between the weights it's already lost. So this is probably this is causing the problem.
+Whatever happens next, the relation between the weights it's already lost. So this is probably what is causing the problem.
+
 """
