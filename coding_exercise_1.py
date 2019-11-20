@@ -1,3 +1,5 @@
+#Original function as sent by jampp.
+
 import random
 
 def weighted_random(values, weights):
