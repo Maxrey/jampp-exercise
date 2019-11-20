@@ -1,3 +1,5 @@
+#Original function as given by jampp.
+
 import random
 
 def weighted_random(values, weights):
@@ -17,12 +19,14 @@ Obtaining a sample set of values for n iterations of the function allows to get 
 (with less error as n goes higher).
 
 """
+#Giving input variables for the function
 
 values = [0,1]
 weights = [0.25, 0.75]
 
-iterations=0
+#Creating a sample set
 
+iterations=0
 sample_set = []
 
 while iterations<1000:
@@ -30,6 +34,7 @@ while iterations<1000:
     iterations+=1
 
 # Recalculating the weights from our sample set:
+
 zeros_count= sample_set.count(0)
 ones_count= sample_set.count(1)
 sample_zeros_weight= zeros_count / iterations
