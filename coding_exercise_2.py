@@ -39,7 +39,7 @@ print (sample_zeros_weight)
 print (sample_ones_weight)
 
 """
-Evaluating for both weights = 0,5 gives a list full of zeroes.
+Evaluating for both weights = 0.5 gives a list full of zeroes.
 Evaluating for a high enough number of iterations a couple of times, the set weights seem to oscillate around some random weight, not the ones from the input:
     - for input weights [0.4, 0.6], values around  [0.2, 0.8] are obtained.
     - for input weights [0.3, 0.7], values around  [0.4, 0.6] are obtained.
